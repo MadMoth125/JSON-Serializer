@@ -5,6 +5,11 @@ using JSON_Testing.Classes;
 
 namespace JSON_Testing
 {
+   /*
+	* Program relies on Newtonsoft.Json for serialization,
+	* please ensure that the Newtonsoft.Json NuGet package is installed
+	* for the project to function correctly.
+	*/
 	internal class Program
 	{
 		// Serialized files land in bin/Debug/net6.0/
